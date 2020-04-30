@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica JQuery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+         crossorigin="anonymous">
+         <script
+            src="https://code.jquery.com/jquery-3.5.0.min.js"
+            integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+            crossorigin="anonymous">
+         </script>
+</head>
+<body>
+    <h3 style="padding-left: 50px;" class="card-header my-5 col-md-6">Manipula la imagen</h3>
+    <p>Mouse is at coordinates: <span></span>.</p>
+    <img id="imagen" style="margin-left:50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRmvOtrAGPIRqF1KOsePHicQ3no4Z1W2GkFl2zfgGqM6wWB3pan&usqp=CAU" alt="">
+    
+    
+   
+<script>
+   $(document).ready(function () {
+       var imagen = $('#imagen');
+       $(imagen).css({cursor:'crosshair'});
+       $(document).mousemove(function (event) { 
+        $("span").text(event.pageX + ", " + event.pageY);
+      
+      if(event.pageX === 337){
+          $(imagen).css({opacity:'1'});
+      };
+      if(event.pageX === 308){
+          $(imagen).css({opacity:'0.9'});
+      };
+      if(event.pageX === 279){
+          $(imagen).css({opacity:'0.7'});
+      };
+      if(event.pageX === 250){
+          $(imagen).css({opacity:'0.6'});
+      };
+      if(event.pageX === 221){
+          $(imagen).css({opacity:'0.5'});
+      };
+      if(event.pageX === 192){
+          $(imagen).css({opacity:'0.4'});
+      };
+      if(event.pageX === 163){
+          $(imagen).css({opacity:'0.3'});
+      };
+      if(event.pageX === 134){
+          $(imagen).css({opacity:'0.2'});
+      };
+      if(event.pageX === 105){
+          $(imagen).css({opacity:'0.1'});
+      };
+      if(event.pageX === 76){
+          $(imagen).css({opacity:'0'});
+      };
+      
+      if(event.pageY === 367){
+           $(imagen).css({height:'0px'});
+      };
+      if(event.pageY === 366){
+           $(imagen).css({height:'1px'});
+      };
+      if(event.pageY === 365){
+           $(imagen).css({height:'2px'});
+      };
+      if(event.pageY === 364){
+           $(imagen).css({height:'3px'});
+      };
+      if(event.pageY === 363){
+           $(imagen).css({height:'4px'});
+      };
+      if(event.pageY === 362){
+           $(imagen).css({height:'5px'});
+      };
+      if(event.pageY === 361){
+           $(imagen).css({height:'6px'});
+      };
+      if(event.pageY === 360){
+           $(imagen).css({height:'7px'});
+      };
+      if(event.pageY === 359){
+           $(imagen).css({height:'8px'});
+      };
+      if(event.pageY === 358){
+           $(imagen).css({height:'9px'});
+      };
+      if(event.pageY === 357){
+           $(imagen).css({height:'10px'});
+      };
+      if(event.pageY === 356){
+           $(imagen).css({height:'11px'});
+      };
+      if(event.pageY === 355){
+           $(imagen).css({height:'12px'});
+      };
+      if(event.pageY === 354){
+           $(imagen).css({height:'13px'});
+      };
+      if(event.pageY === 353){
+           $(imagen).css({height:'14px'});
+      };
+      if(event.pageY === 352){
+           $(imagen).css({height:'15px'});
+      };
+      if(event.pageY === 351){
+           $(imagen).css({height:'16px'});
+      };
+      if(event.pageY === 350){
+           $(imagen).css({height:'17px'});
+      };
+      if(event.pageY === 349){
+           $(imagen).css({height:'18px'});
+      };
+      if(event.pageY === 348){
+           $(imagen).css({height:'19px'});
+      };
+      if(event.pageY === 347){
+           $(imagen).css({height:'20px'});
+      };
+      if(event.pageY === 346){
+           $(imagen).css({height:'21px'});
+      };
+      if(event.pageY === 345){
+           $(imagen).css({height:'22px'});
+      };
+      if(event.pageY === 344){
+           $(imagen).css({height:'23px'});
+      };
+      if(event.pageY === 343){
+           $(imagen).css({height:'24px'});
+      };
+      if(event.pageY === 342){
+           $(imagen).css({height:'25px'});
+      };
+      if(event.pageY === 341){
+           $(imagen).css({height:'26px'});
+      };
+      if(event.pageY === 340){
+           $(imagen).css({height:'27px'});
+      };
+      if(event.pageY === 341){
+           $(imagen).css({height:'28px'});
+      };
+      if(event.pageY === 340){
+           $(imagen).css({height:'29px'});
+      };
+      if(event.pageY === 342){
+           $(imagen).css({height:'30px'});
+      };
+      if(event.pageY === 341){
+           $(imagen).css({height:'31px'});
+      };
+      if(event.pageY === 340){
+           $(imagen).css({height:'32px'});
+      };
+      if(event.pageY === 339){
+           $(imagen).css({height:'33px'});
+      };
+      if(event.pageY === 338){
+           $(imagen).css({height:'335px'});
+      };
+      if(event.pageY === 337){
+           $(imagen).css({height:'36px'});
+      };
+      if(event.pageY === 336){
+           $(imagen).css({height:'37px'});
+      };
+      if(event.pageY === 335){
+           $(imagen).css({height:'38px'});
+      };
+      if(event.pageY === 334){
+           $(imagen).css({height:'39px'});
+      };
+      if(event.pageY === 333){
+           $(imagen).css({height:'40px'});
+      };
+      if(event.pageY === 332){
+           $(imagen).css({height:'41px'});
+      };
+      if(event.pageY === 331){
+           $(imagen).css({height:'42px'});
+      };
+      if(event.pageY === 330){
+           $(imagen).css({height:'43px'});
+      };
+      if(event.pageY === 329){
+           $(imagen).css({height:'44px'});
+      };
+      if(event.pageY === 328){
+           $(imagen).css({height:'45px'});
+      };
+      if(event.pageY === 327){
+           $(imagen).css({height:'46px'});
+      };
+      if(event.pageY === 326){
+           $(imagen).css({height:'47px'});
+      };
+      if(event.pageY === 325){
+           $(imagen).css({height:'48px'});
+      };
+      if(event.pageY === 324){
+           $(imagen).css({height:'49px'});
+      };
+      if(event.pageY === 323){
+           $(imagen).css({height:'50px'});
+      };
+      if(event.pageY === 322){
+           $(imagen).css({height:'51px'});
+      };
+      if(event.pageY === 321){
+           $(imagen).css({height:'52px'});
+      };
+      if(event.pageY === 320){
+           $(imagen).css({height:'53px'});
+      };
+      if(event.pageY === 319){
+           $(imagen).css({height:'54px'});
+      };
+      if(event.pageY === 318){
+           $(imagen).css({height:'55px'});
+      };
+      if(event.pageY === 317){
+           $(imagen).css({height:'56px'});
+      };
+      if(event.pageY === 316){
+           $(imagen).css({height:'57px'});
+      };
+      if(event.pageY === 315){
+           $(imagen).css({height:'58px'});
+      };
+      if(event.pageY === 314){
+           $(imagen).css({height:'59px'});
+      };
+      if(event.pageY === 313){
+           $(imagen).css({height:'60px'});
+      };
+      if(event.pageY === 312){
+           $(imagen).css({height:'61px'});
+      };
+      if(event.pageY === 311){
+           $(imagen).css({height:'62px'});
+      };
+      if(event.pageY === 310){
+           $(imagen).css({height:'63px'});
+      };
+      if(event.pageY === 309){
+           $(imagen).css({height:'64px'});
+      };
+      if(event.pageY === 308){
+           $(imagen).css({height:'65px'});
+      };
+      if(event.pageY === 307){
+           $(imagen).css({height:'66px'});
+      };
+      if(event.pageY === 306){
+           $(imagen).css({height:'67px'});
+      };
+      if(event.pageY === 305){
+           $(imagen).css({height:'68px'});
+      };
+      if(event.pageY === 304){
+           $(imagen).css({height:'69px'});
+      };
+      if(event.pageY === 303){
+           $(imagen).css({height:'70px'});
+      };
+      if(event.pageY === 302){
+           $(imagen).css({height:'71px'});
+      };
+      if(event.pageY === 301){
+           $(imagen).css({height:'73px'});
+      };
+      if(event.pageY === 300){
+           $(imagen).css({height:'74px'});
+      };
+      if(event.pageY === 299){
+           $(imagen).css({height:'75px'});
+      };
+      if(event.pageY === 298){
+           $(imagen).css({height:'76px'});
+      };
+      if(event.pageY === 297){
+           $(imagen).css({height:'77px'});
+      };
+      if(event.pageY === 296){
+           $(imagen).css({height:'79px'});
+      };
+      if(event.pageY === 295){
+           $(imagen).css({height:'80px'});
+      };
+      if(event.pageY === 294){
+           $(imagen).css({height:'81px'});
+      };
+      if(event.pageY === 293){
+           $(imagen).css({height:'82px'});
+      };
+      if(event.pageY === 292){
+           $(imagen).css({height:'83px'});
+      };
+      if(event.pageY === 291){
+           $(imagen).css({height:'84px'});
+      };
+      if(event.pageY === 290){
+           $(imagen).css({height:'85px'});
+      };
+      if(event.pageY === 289){
+           $(imagen).css({height:'86px'});
+      };
+      if(event.pageY === 288){
+           $(imagen).css({height:'87px'});
+      };
+      if(event.pageY === 287){
+           $(imagen).css({height:'88px'});
+      };
+      if(event.pageY === 286){
+           $(imagen).css({height:'89px'});
+      };
+      if(event.pageY === 285){
+           $(imagen).css({height:'90px'});
+      };
+      if(event.pageY === 286){
+           $(imagen).css({height:'91px'});
+      };
+      if(event.pageY === 285){
+           $(imagen).css({height:'92px'});
+      };
+      if(event.pageY === 284){
+           $(imagen).css({height:'93px'});
+      };
+      if(event.pageY === 283){
+           $(imagen).css({height:'94px'});
+      };
+      if(event.pageY === 282){
+           $(imagen).css({height:'95px'});
+      };
+      if(event.pageY === 281){
+           $(imagen).css({height:'96px'});
+      };
+      if(event.pageY === 280){
+           $(imagen).css({height:'97px'});
+      };
+      if(event.pageY === 279){
+           $(imagen).css({height:'98px'});
+      };
+      if(event.pageY === 278){
+           $(imagen).css({height:'99px'});
+      };
+      if(event.pageY === 277){
+           $(imagen).css({height:'100px'});
+      };
+      if(event.pageY === 276){
+           $(imagen).css({height:'101px'});
+      };
+      if(event.pageY === 275){
+           $(imagen).css({height:'102px'});
+      };
+      if(event.pageY === 274){
+           $(imagen).css({height:'103px'});
+      };
+      if(event.pageY === 273){
+           $(imagen).css({height:'104px'});
+      };
+      if(event.pageY === 272){
+           $(imagen).css({height:'105px'});
+      };
+      if(event.pageY === 271){
+           $(imagen).css({height:'106px'});
+      };
+      if(event.pageY === 270){
+           $(imagen).css({height:'107px'});
+      };
+      if(event.pageY === 269){
+           $(imagen).css({height:'108px'});
+      };
+      if(event.pageY === 268){
+           $(imagen).css({height:'109px'});
+      };
+      if(event.pageY === 267){
+           $(imagen).css({height:'110px'});
+      };
+      if(event.pageY === 266){
+           $(imagen).css({height:'111px'});
+      };
+      if(event.pageY === 265){
+           $(imagen).css({height:'112px'});
+      };
+      if(event.pageY === 264){
+           $(imagen).css({height:'113px'});
+      };
+      if(event.pageY === 263){
+           $(imagen).css({height:'114px'});
+      };
+      if(event.pageY === 262){
+           $(imagen).css({height:'115px'});
+      };
+      if(event.pageY === 261){
+           $(imagen).css({height:'116px'});
+      };
+      if(event.pageY === 260){
+           $(imagen).css({height:'117px'});
+      };
+      if(event.pageY === 259){
+           $(imagen).css({height:'118px'});
+      };
+      if(event.pageY === 258){
+           $(imagen).css({height:'119px'});
+      };
+      if(event.pageY === 257){
+           $(imagen).css({height:'120px'});
+      };
+      if(event.pageY === 256){
+           $(imagen).css({height:'121px'});
+      };
+      if(event.pageY === 255){
+           $(imagen).css({height:'122px'});
+      };
+      if(event.pageY === 254){
+           $(imagen).css({height:'123px'});
+      };
+      if(event.pageY === 253){
+           $(imagen).css({height:'124px'});
+      };
+      if(event.pageY === 252){
+           $(imagen).css({height:'125px'});
+      };
+      if(event.pageY === 251){
+           $(imagen).css({height:'126px'});
+      };
+      if(event.pageY === 250){
+           $(imagen).css({height:'127px'});
+      };
+      if(event.pageY === 249){
+           $(imagen).css({height:'128px'});
+      };
+      if(event.pageY === 248){
+           $(imagen).css({height:'129px'});
+      };
+      if(event.pageY === 247){
+           $(imagen).css({height:'130px'});
+      };
+      if(event.pageY === 246){
+           $(imagen).css({height:'131px'});
+      };
+      if(event.pageY === 245){
+           $(imagen).css({height:'132px'});
+      };
+      if(event.pageY === 244){
+           $(imagen).css({height:'133px'});
+      };
+      if(event.pageY === 243){
+           $(imagen).css({height:'134px'});
+      };
+      if(event.pageY === 242){
+           $(imagen).css({height:'135px'});
+      };
+      if(event.pageY === 241){
+           $(imagen).css({height:'136px'});
+      };
+      if(event.pageY === 240){
+           $(imagen).css({height:'137px'});
+      };
+      if(event.pageY === 239){
+           $(imagen).css({height:'138px'});
+      };
+      if(event.pageY === 238){
+           $(imagen).css({height:'139px'});
+      };
+      if(event.pageY === 237){
+           $(imagen).css({height:'140px'});
+      };
+      if(event.pageY === 236){
+           $(imagen).css({height:'141px'});
+      };
+      if(event.pageY === 235){
+           $(imagen).css({height:'142px'});
+      };
+      if(event.pageY === 234){
+           $(imagen).css({height:'143px'});
+      };
+      if(event.pageY === 233){
+           $(imagen).css({height:'144px'});
+      };
+      if(event.pageY === 232){
+           $(imagen).css({height:'145px'});
+      };
+      if(event.pageY === 231){
+           $(imagen).css({height:'146px'});
+      };
+      if(event.pageY === 230){
+           $(imagen).css({height:'147px'});
+      };
+      if(event.pageY === 229){
+           $(imagen).css({height:'148px'});
+      };
+      if(event.pageY === 228){
+           $(imagen).css({height:'149px'});
+      };
+      if(event.pageY === 227){
+           $(imagen).css({height:'150px'});
+      };
+      if(event.pageY === 226){
+           $(imagen).css({height:'151px'});
+      };
+      if(event.pageY === 225){
+           $(imagen).css({height:'152px'});
+      };
+      if(event.pageY === 224){
+           $(imagen).css({height:'153px'});
+      };
+      if(event.pageY === 223){
+           $(imagen).css({height:'154px'});
+      };
+      if(event.pageY === 222){
+           $(imagen).css({height:'155px'});
+      };
+      if(event.pageY === 221){
+           $(imagen).css({height:'156px'});
+      };
+      if(event.pageY === 220){
+           $(imagen).css({height:'157px'});
+      };
+      if(event.pageY === 219){
+           $(imagen).css({height:'158px'});
+      };
+      if(event.pageY === 218){
+           $(imagen).css({height:'159px'});
+      };
+      if(event.pageY === 217){
+           $(imagen).css({height:'160px'});
+      };
+      if(event.pageY === 216){
+           $(imagen).css({height:'161px'});
+      };
+      if(event.pageY === 214){
+           $(imagen).css({height:'162px'});
+      };
+      if(event.pageY === 213){
+           $(imagen).css({height:'163px'});
+      };
+      if(event.pageY === 212){
+           $(imagen).css({height:'164px'});
+      };
+      if(event.pageY === 211){
+           $(imagen).css({height:'165px'});
+      };
+      if(event.pageY === 210){
+           $(imagen).css({height:'166px'});
+      };
+      if(event.pageY === 209){
+           $(imagen).css({height:'167px'});
+      };
+      if(event.pageY === 208){
+           $(imagen).css({height:'168px'});
+      };
+      if(event.pageY === 207){
+           $(imagen).css({height:'169px'});
+      };
+      if(event.pageY === 206){
+           $(imagen).css({height:'170px'});
+      };
+      if(event.pageY === 205){
+           $(imagen).css({height:'171px'});
+      };
+      if(event.pageY === 204){
+           $(imagen).css({height:'172px'});
+      };
+      if(event.pageY === 203){
+           $(imagen).css({height:'173px'});
+      };
+      if(event.pageY === 202){
+           $(imagen).css({height:'174px'});
+      };
+      if(event.pageY === 201){
+           $(imagen).css({height:'175px'});
+      };
+      if(event.pageY === 200){
+           $(imagen).css({height:'176px'});
+      };
+      if(event.pageY === 199){
+           $(imagen).css({height:'177px'});
+      };
+      if(event.pageY === 198){
+           $(imagen).css({height:'px'});
+      };
+      if(event.pageY === 197){
+           $(imagen).css({height:'21px'});
+      };
+      if(event.pageY === 196){
+           $(imagen).css({height:'20px'});
+      };
+      if(event.pageY === 195){
+           $(imagen).css({height:'19px'});
+      };
+      if(event.pageY === 194){
+           $(imagen).css({height:'18px'});
+      };
+      if(event.pageY === 193){
+           $(imagen).css({height:'17px'});
+      };
+      if(event.pageY === 192){
+           $(imagen).css({height:'16px'});
+      };
+      if(event.pageY === 191){
+           $(imagen).css({height:'15px'});
+      };
+      if(event.pageY === 190){
+           $(imagen).css({height:'14px'});
+      };
+      if(event.pageY === 212){
+           $(imagen).css({height:'13px'});
+      };
+      if(event.pageY === 212){
+           $(imagen).css({height:'12px'});
+      };
+      if(event.pageY === 212){
+           $(imagen).css({height:'11px'});
+      };
+      if(event.pageY === 212){
+           $(imagen).css({height:'10px'});
+      };
+      if(event.pageY === 212){
+           $(imagen).css({height:'09px'});
+      };
+      if(event.pageY === 212){
+           $(imagen).css({height:'08px'});
+      };
+      if(event.pageY === 212){
+           $(imagen).css({height:'07px'});
+      };
+      if(event.pageY === 212){
+           $(imagen).css({height:'06px'});
+      };
+      if(event.pageY === 212){
+           $(imagen).css({height:'05px'});
+      };
+      if(event.pageY === 212){
+           $(imagen).css({height:'04px'});
+      };
+      if(event.pageY === 212){
+           $(imagen).css({height:'03px'});
+      };
+      if(event.pageY === 212){
+           $(imagen).css({height:'02px'});
+      };
+      if(event.pageY === 212){
+           $(imagen).css({height:'01px'});
+      };
+      if(event.pageY === 212){
+           $(imagen).css({height:'00px'});
+      };
+
+      
+
+
+      
+    
+
+     
+       
+           
+    });
+
+       /*$(document).ready(function(){
+  $(document).mousemove(function(event){
+    $("span").text(event.pageX + ", " + event.pageY);
+  });
+});*/
+   });
+   
+</script>
+ 
+
+
+</body>
+</html>
